@@ -1,4 +1,4 @@
-{ lib, ... }:
+{ config, lib, ... }:
 
 {
   imports = [
@@ -28,6 +28,8 @@
       };
     };
   };
+
+  services.xserver.videoDrivers = [ "nvidia" ];
 
   services.thermald.enable = lib.mkDefault true;
 }
