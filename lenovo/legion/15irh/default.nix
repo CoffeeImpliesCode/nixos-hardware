@@ -7,7 +7,7 @@
     ../../../common/gpu/nvidia/turing
     ../../../common/pc/laptop
     ../../../common/pc/ssd
-    ../../../common/pc/laptop/hdd
+    # ../../../common/pc/laptop/hdd
     ../../../common/hidpi.nix
   ];
 
