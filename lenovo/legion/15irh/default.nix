@@ -7,14 +7,12 @@
     ../../../common/gpu/nvidia/turing
     ../../../common/pc/laptop
     ../../../common/pc/ssd
-    # ../../../common/pc/laptop/hdd
     ../../../common/hidpi.nix
   ];
 
-  # boot.initrd.kernelModules = [ "nvidia" ];
+  boot.initrd.kernelModules = [ "nvidia" ];
   boot.extraModulePackages = [
     config.boot.kernelPackages.lenovo-legion-module
-    # config.boot.kernelPackages.nvidia_x11
   ];
 
   hardware = {
