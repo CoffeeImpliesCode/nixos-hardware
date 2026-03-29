@@ -67,14 +67,14 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## Get in touch
 
-For questions and discussions, come join us in the [nixos-anywhere matrix](https://matrix.to/#/#nixos-hardware:nixos.org) room.
+For questions and discussions, come join us in the [nixos-hardware matrix](https://matrix.to/#/#nixos-hardware:nixos.org) room.
 
 # Community Meetings
 
 The [NixOS hardware](https://github.com/orgs/NixOS/teams/nixos-hardware) team meets regularly to discuss hardware profiles and maintenance:
 
 - **When**: Every 3rd Friday of the month
-- **Time**: 05:00 pm (UTC) / 17:00 (UTC)
+- **Time**: 06:00 pm (UTC) / 18:00 (UTC)
 - **Where**: https://jitsi.lassul.us/Hardware-team
 - **Contact**: hardware@nixos.org
 
@@ -297,6 +297,7 @@ See code for all available configurations.
 | [Lenovo ThinkPad P14s AMD Gen 3](lenovo/thinkpad/p14s/amd/gen3)                   | `<nixos-hardware/lenovo/thinkpad/p14s/amd/gen3>`        | `lenovo-thinkpad-p14s-amd-gen3`        |
 | [Lenovo ThinkPad P14s AMD Gen 4](lenovo/thinkpad/p14s/amd/gen4)                   | `<nixos-hardware/lenovo/thinkpad/p14s/amd/gen4>`        | `lenovo-thinkpad-p14s-amd-gen4`        |
 | [Lenovo ThinkPad P14s AMD Gen 5](lenovo/thinkpad/p14s/amd/gen5)                   | `<nixos-hardware/lenovo/thinkpad/p14s/amd/gen5>`        | `lenovo-thinkpad-p14s-amd-gen5`        |
+| [Lenovo ThinkPad P14s AMD Gen 6](lenovo/thinkpad/p14s/amd/gen6)                   | `<nixos-hardware/lenovo/thinkpad/p14s/amd/gen6>`        | `lenovo-thinkpad-p14s-amd-gen6`        |
 | [Lenovo ThinkPad P14s Intel Gen 2](lenovo/thinkpad/p14s/intel/gen2)               | `<nixos-hardware/lenovo/thinkpad/p14s/intel/gen2>`      | `lenovo-thinkpad-p14s-intel-gen2`      |
 | [Lenovo ThinkPad P14s Intel Gen 3](lenovo/thinkpad/p14s/intel/gen3)               | `<nixos-hardware/lenovo/thinkpad/p14s/intel/gen3>`      | `lenovo-thinkpad-p14s-intel-gen3`      |
 | [Lenovo ThinkPad P14s Intel Gen 5](lenovo/thinkpad/p14s/intel/gen5)               | `<nixos-hardware/lenovo/thinkpad/p14s/intel/gen5>`      | `lenovo-thinkpad-p14s-intel-gen5`      |
