@@ -1,22 +1,14 @@
-{
-  lib,
-  pkgs,
-  ...
-}:
+{ lib, pkgs, ... }:
 
 {
+  imports = [
+    ../common/default.nix
+  ];
+
   boot = {
     kernelPackages = lib.mkDefault (
-      pkgs.linuxPackagesFor (
-        pkgs.callPackage ../common/kernel.nix {
-          rpiVersion = 3;
-        }
-      )
+      pkgs.linuxPackagesFor (pkgs.callPackage ../common/kernel.nix { rpiVersion = 3; })
     );
-    initrd.availableKernelModules = [
-      "usbhid"
-      "usb-storage"
-    ];
   };
 
   # fix the following error :
